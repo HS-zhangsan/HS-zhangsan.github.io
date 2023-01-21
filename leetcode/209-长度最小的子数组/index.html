@@ -4,27 +4,27 @@
 <script src="/config.5483e56f102efb66b498.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
-<title>测试嵌入PDF - ZhangSan's Blog</title>
+<title>209-长度最小的子数组 - ZhangSan's Blog</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<link rel="canonical" href="https://zhangsan.works/posts/test_embed_pdf/">
+<link rel="canonical" href="https://zhangsan.works/leetcode/209-%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/">
 <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
-<meta name="description" content="这篇文章用来测试 pdf 嵌入 注意：移动端不支持（hexo 竟然不支持高亮？？只能加粗了） 更新：vivo 手机测试，chrome 可以下载但是不能正常显示，夸克浏览器和 vivo 原生浏览器都不能显示。推测 iOS 或者其他安卓手机一样。 另外，由于本博客部署在 GitHub Page 上，所以 pdf 过大时加载很慢。（可以挂梯子解决） 首先是比较小的 pdf   	      	    然">
+<meta name="description" content="【目录】 | 力扣链接 | 力扣题解链接 题目描述 给定一个含有 n 个正整数的数组和一个正整数 target 。 找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。 示例1： 123输入：target &#x3D; 7, nums &#x3D; [2,3,1,2,4,3]输">
 <meta property="og:type" content="website">
-<meta property="og:title" content="测试嵌入PDF">
-<meta property="og:url" content="https://zhangsan.works/posts/test_embed_pdf/index.html">
+<meta property="og:title" content="209-长度最小的子数组">
+<meta property="og:url" content="https://zhangsan.works/leetcode/209-%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/index.html">
 <meta property="og:site_name" content="ZhangSan&#39;s Blog">
-<meta property="og:description" content="这篇文章用来测试 pdf 嵌入 注意：移动端不支持（hexo 竟然不支持高亮？？只能加粗了） 更新：vivo 手机测试，chrome 可以下载但是不能正常显示，夸克浏览器和 vivo 原生浏览器都不能显示。推测 iOS 或者其他安卓手机一样。 另外，由于本博客部署在 GitHub Page 上，所以 pdf 过大时加载很慢。（可以挂梯子解决） 首先是比较小的 pdf   	      	    然">
+<meta property="og:description" content="【目录】 | 力扣链接 | 力扣题解链接 题目描述 给定一个含有 n 个正整数的数组和一个正整数 target 。 找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。 示例1： 123输入：target &#x3D; 7, nums &#x3D; [2,3,1,2,4,3]输">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/654/202211252027510.jpg">
-<meta property="article:published_time" content="2022-11-25T20:22:45.000Z">
-<meta property="article:modified_time" content="2022-11-28T18:58:22.728Z">
+<meta property="og:image" content="https://zhangsan.works/img/avatar.jpg">
+<meta property="article:published_time" content="2023-01-21T10:46:02.000Z">
+<meta property="article:modified_time" content="2023-01-21T11:26:20.657Z">
 <meta property="article:author" content="zhangsan">
-<meta property="article:tag" content="test">
+<meta property="article:tag" content="&#39;张三&#39;, &#39;博客&#39;, &#39;zhangsan&#39;, &#39;blog&#39;">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/654/202211252027510.jpg">
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"zhangsan","description":"Life is a lonely practice.","image":"https://zhangsan.works/img/avatar.jpg"},"url":"https://zhangsan.works","image":"https://zhangsan.works/img/avatar.jpg","description":"","author":{"@type":"Person","name":"zhangsan","description":"Life is a lonely practice.","image":"https://zhangsan.works/img/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"test","url":"https://zhangsan.works/posts/test_embed_pdf.html","headline":"测试嵌入PDF","image":"https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/654/202211252027510.jpg","datePublished":"2022-11-25T20:22:45.000Z","dateModified":"2022-11-28T18:58:22.728Z","keywords":"test","description":"","publisher":{"@type":"Organization","name":"ZhangSan's Blog","logo":{"@type":"ImageObject","url":"https://zhangsan.works/img/avatar.jpg"}},"author":{"@type":"Person","name":"zhangsan","description":"Life is a lonely practice.","image":"https://zhangsan.works/img/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zhangsan.works/posts/test_embed_pdf.html"},"thumbnailUrl":"https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/654/202211252027510.jpg"}]</script>
+<meta name="twitter:image" content="https://zhangsan.works/img/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"zhangsan","description":"Life is a lonely practice.","image":"https://zhangsan.works/img/avatar.jpg"},"url":"https://zhangsan.works","image":"https://zhangsan.works/img/avatar.jpg","description":"","author":{"@type":"Person","name":"zhangsan","description":"Life is a lonely practice.","image":"https://zhangsan.works/img/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"en"}}]</script>
 
 <!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#2a2b33;--inside-foreground-color:#363636;--inside-border-color:#e0e0e0;--inside-background:url(/img/dust_scratches.png);--inside-sidebar-background:#2a2b33;--inside-card-background:#fff;--inside-font-base:'Josefin Sans','PingFang SC';--inside-font-logo:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-font-menu:Baloo Bhaijaan,'Josefin Sans','PingFang SC';--inside-font-heading:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-font-label:Montserrat,'Josefin Sans','PingFang SC';--inside-font-code:Inconsolata,monospace;--inside-font-print:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-content-width:70%;--inside-highlight-00:#ffffff;--inside-highlight-01:#e0e0e0;--inside-highlight-02:#f3f6f7;--inside-highlight-03:#95a5b3;--inside-highlight-04:#363636;--inside-highlight-05:#262b2f;--inside-highlight-06:#000000;--inside-highlight-07:#000000;--inside-highlight-08:#5d6c7b;--inside-highlight-09:#40464a;--inside-highlight-0a:#2980b9;--inside-highlight-0b:#be516e;--inside-highlight-0c:#237dac;--inside-highlight-0d:#944770;--inside-highlight-0e:#239371;--inside-highlight-0f:#edf0f3;--inside-card-color:#fff;--inside-accent-color-005:rgba(42,43,51,.05);--inside-accent-color-01:rgba(42,43,51,.1);--inside-accent-color-02:rgba(42,43,51,.2);--inside-accent-color-04:rgba(42,43,51,.4);--inside-accent-color-08:rgba(42,43,51,.8)}</style><script src="/theme.9ecc9ab1.js"></script><link href="//vkceyugu.cdn.bspapp.com/VKCEYUGU-5a7313a3-81df-49ad-941e-33cab30695e9/5a5267bb-9936-4a71-ab24-6ee2da219dbd.css" rel="stylesheet"></link><link href="/styles.91e7dfca63c7c151daa6.css" rel="stylesheet"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
 <body lang="en"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="//cdn.jsdelivr.net/gh/fiteen/fiteen.github.io@v0.1.7/av-min.js"></script><script src="//cdn.jsdelivr.net/gh/fiteen/fiteen.github.io@v0.1.0/valine.js"></script><script src="//blog.oniuo.com/theme.js"></script><script src="//blog.oniuo.com/wc.cc9a2092fece1d80bf3b.js"></script><script src="/runtime.1ed960b0635ea0669f87.js"></script><script src="/polyfills.b7bf56fc45f931a8b83e.js"></script><script src="/main.543c891b4aad158701f3.js"></script><!-- hexo injector body_end end --></body>
