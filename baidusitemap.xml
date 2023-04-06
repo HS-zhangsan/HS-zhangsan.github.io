@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.zhangsan.works/posts/centos&wordpress.html</loc>
+    <lastmod>2023-04-06</lastmod>
+  </url>
+  <url>
     <loc>https://blog.zhangsan.works/posts/test_file_download.html</loc>
     <lastmod>2023-03-31</lastmod>
   </url>
@@ -9,15 +13,15 @@
     <lastmod>2023-03-31</lastmod>
   </url>
   <url>
-    <loc>https://blog.zhangsan.works/posts/test_embed_pdf.html</loc>
-    <lastmod>2023-03-31</lastmod>
-  </url>
-  <url>
     <loc>https://blog.zhangsan.works/posts/test_insert_image.html</loc>
     <lastmod>2023-03-31</lastmod>
   </url>
   <url>
     <loc>https://blog.zhangsan.works/posts/test_insert_audio&video.html</loc>
+    <lastmod>2023-03-31</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangsan.works/posts/test_embed_pdf.html</loc>
     <lastmod>2023-03-31</lastmod>
   </url>
   <url>
